@@ -10,7 +10,7 @@ lang={'en':"press",'sk':"stlač"}
 
 def java_lang():
     ac=autoclass('java.util.Locale')
-    str1=ac.getDefault().getLanguage() 
+    language=ac.getDefault().getLanguage() 
     return language
 '''def android_lang():
     ac2=autoclass('android.content.res.Resources')
